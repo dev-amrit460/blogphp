@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+	background-color: #F5FFFA;
+}
+#mainNav{
+    background-color:rgb(0,0,205);
+    width: 100vw;
+}
+.intro{
+	margin-top: 4rem;
+	background-image: url(home.svg);
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 50vh;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: blue;
+}
+#link{
+	color: white;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+#link:hover{
+	background-color: white;
+	color:blue;
+}
+.about{
+	background-image: url(about.svg);
+	background-size:100% 100%;
+	width: 100vw;
+	height: 45vh;
+	text-align: right;
+	color:blue;
+}
+#about{
+		font-family: 'Balsamiq Sans', cursive;
+		padding-right: 2rem;
+}
+.aboutpara{
+	padding: 1rem;
+	text-align: justify;
+	font-family: 'Patua One', cursive;
+	color:#000080;
+}
+.contact{
+    background-image: url(contact.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 45vh;
+	text-align: right;
+	color:blue;
+	font-family: 'Balsamiq Sans', cursive;
+}
+#pcon{
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+	color:#000080;
+}
+#head4{
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+	color:white;
+}
+#gform{
+	color:#000080;
+}
+#form{
+	width: fit-content;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#message{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.footer{
+	background-color: rgb(0,0,205);
+	height: 56px;
+}
+#foot{
+	padding-top: 7px;
+}
